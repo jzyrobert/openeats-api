@@ -183,9 +183,9 @@ if not DEBUG:
         'rest_framework.renderers.JSONRenderer',
     )
 
-CORS_ORIGIN_WHITELIST = (
+CORS_ORIGIN_WHITELIST = [
     os.environ.get('NODE_URL', 'http://localhost:8080')
-)
+]
 
 # Static and i18n settings
 STATICFILES_FINDERS = (
