@@ -8,7 +8,7 @@ django-filter==2.2.0
 django-extensions==2.2.9
 django-cors-headers==3.3.0
 
-coreapi-cli==1.0.6
+coreapi-cli==1.0.9
 gunicorn==20.0.4
 requests==2.20.0
 six==1.15.0
