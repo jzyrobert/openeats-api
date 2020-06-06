@@ -184,7 +184,7 @@ if not DEBUG:
     )
 
 CORS_ORIGIN_WHITELIST = (
-    os.environ.get('NODE_URL', 'localhost:8080')
+    os.environ.get('NODE_URL', 'http://localhost:8080')
 )
 
 # Static and i18n settings
